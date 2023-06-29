@@ -1,0 +1,44 @@
+	<changedlog>
+		<time>16/06/2023 14:34:06</time>
+		<logid>1686889405537</logid>
+		<user>system</user>
+		<threadid>1001</threadid>
+		<class>telsoft.app.thread.process.SMSReceiver</class>
+		<name>SMSReceiver_9237</name>
+		<param_name>username</param_name>
+		<param_old_value>RECEIVER</param_old_value>
+		<param_new_value>receiver</param_new_value>
+	</changedlog>
+	<changedlog>
+		<time>16/06/2023 14:34:06</time>
+		<logid>1686889405537</logid>
+		<user>system</user>
+		<threadid>1001</threadid>
+		<class>telsoft.app.thread.process.SMSReceiver</class>
+		<name>SMSReceiver_9237</name>
+		<param_name>password</param_name>
+		<param_old_value>123456</param_old_value>
+		<param_new_value>receiver</param_new_value>
+	</changedlog>
+	<changedlog>
+		<time>16/06/2023 14:52:50</time>
+		<logid>1686901765749</logid>
+		<user>system</user>
+		<threadid>1406</threadid>
+		<class>telsoft.app.thread.process.SMSSender</class>
+		<name>SMSSender_9237</name>
+		<param_name>username</param_name>
+		<param_old_value>SENDER</param_old_value>
+		<param_new_value>sender</param_new_value>
+	</changedlog>
+	<changedlog>
+		<time>16/06/2023 14:52:50</time>
+		<logid>1686901765749</logid>
+		<user>system</user>
+		<threadid>1406</threadid>
+		<class>telsoft.app.thread.process.SMSSender</class>
+		<name>SMSSender_9237</name>
+		<param_name>password</param_name>
+		<param_old_value>123456</param_old_value>
+		<param_new_value>sender</param_new_value>
+	</changedlog>

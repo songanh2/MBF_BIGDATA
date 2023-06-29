@@ -1,0 +1,26 @@
+plugins {
+    id 'java'
+}
+
+group 'vn.com.telsoft.service'
+version '1.0'
+
+repositories {
+    mavenCentral()
+}
+
+tasks.withType(JavaCompile) {
+    options.encoding = 'UTF-8'
+}
+dependencies {
+    implementation fileTree(dir: 'lib', includes: ['*.jar'])
+    implementation fileTree(dir: 'lib/birt_report', includes: ['*.jar'])
+    implementation group: 'org.bouncycastle', name: 'bcpg-jdk15on', version: '1.52'
+
+    testImplementation 'org.junit.jupiter:junit-jupiter-api:5.7.0'
+    testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.7.0'
+}
+
+test {
+    useJUnitPlatform()
+}
